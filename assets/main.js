@@ -34,7 +34,7 @@ function panameReplace(value, row, index) {
     return pacontent.slice(0, -2);
 };
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiaGFzdCIsImEiOiJjamozeHF4aWswMDF3NDFrNWFnM25lY2I1In0.qet-_YLCdjKFyCdifNdZaQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaGFzdCIsImEiOiJjamlvOHB3MTQwbGNlM3FwbXMwZDM3cGI0In0.pb3a1DBhKsxxUjSWFYVsoQ';
 
 if (!mapboxgl.supported()) {
     $("#warningModal").modal("show");
@@ -75,7 +75,7 @@ var center = pLocation[locNumber].center,
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/hast/cjjwpl3mf3o6y2spfabxkjh7i',
+    style: 'mapbox://styles/hast/cjvkv01r82jal1cpc2un2h4ms',
     center: center,
     zoom: 4
 });
