@@ -1,0 +1,48 @@
+html,
+body,
+#container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.mapillary-js {
+    position: absolute;
+    height: 95.5%;
+    width: 60%;
+}
+
+#map {
+    position: absolute;
+    right: 0;
+    height: 95.5%;
+    width: 40%;
+}
+
+.navbar.navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.mapboxgl-map {
+    font: 11px/16px 'HelveticaNeue', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 992px) {
+    .navbar.navbar-brand {
+        font-size: 18px;
+    }
+}
