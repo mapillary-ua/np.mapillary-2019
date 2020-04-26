@@ -17,6 +17,7 @@ body {
 }
 
 #map {
+    /*height: 50%;*/
     position: absolute;
     right: 0;
     height: 95.5%;
@@ -44,5 +45,21 @@ body {
 @media (max-width: 992px) {
     .navbar.navbar-brand {
         font-size: 18px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mapillary-js {
+        position: relative;
+        width: auto;
+        height: 50%;
+    }
+
+    #map {
+        position: relative;
+        width: auto;
+        height: 50%;
+        right: auto;
     }
 }
