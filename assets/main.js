@@ -34,7 +34,7 @@ function panameReplace(value, row, index) {
     return pacontent.slice(0, -2);
 };
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiaGFzdCIsImEiOiJjamlvOHB3MTQwbGNlM3FwbXMwZDM3cGI0In0.pb3a1DBhKsxxUjSWFYVsoQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiaGFzdCIsImEiOiJja2E0OTBsbG0wcnNqM25wbjVwOHB4czBrIn0.yB_8i_VGIBe36BfpXRT1Ng';
 
 if (!mapboxgl.supported()) {
     $("#warningModal").modal("show");
